@@ -1,0 +1,14 @@
+{
+  "profiles": {
+    "myCustomResource": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7029"
+    },
+    "Docker": {
+      "commandName": "Docker",
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}",
+      "httpPort": 32623,
+      "useSSL": false
+    }
+  }
+}
